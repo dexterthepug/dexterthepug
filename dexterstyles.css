@@ -44,11 +44,32 @@ div.dexterFace {
   margin: 0 0 1em 0;
 }
 
+div.flexTitle {
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: center;
+  margin: 0 0 0 0;
+  padding: 0 0.25em;
+}
+
+p.title {
+  font-size: 40px;
+  color: white;
+  opacity: 0.7;
+  font-family: "Trebuchet MS", tahoma, sans-serif;
+  padding: 0 0.75em;
+  margin: 0.25em;
+  letter-spacing: 0.25em;
+  color: snow;
+  border: 2px solid snow;
+  border-radius: 2px;
+}
+
 div.flexFace {
   display: flex;
   flex-flow: row-wrap;
   justify-content: space-around;
-  margin: 13.25em 0 0 0;
+  margin: 8.75em 0 0 0;
   padding: 0 0.25em;
 }
 
@@ -92,6 +113,6 @@ div.text {
   font-family: tahoma, sans-serif;
   font-size: 32px;
   margin: 1em;
-/*  opacity: 0.8;*/
+/*opacity: 0.8;*/
   max-width: 400px;
 }
